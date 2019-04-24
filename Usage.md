@@ -36,7 +36,7 @@ curl -X POST -H "Content-Type: application/json" -d '{"date":"2019-04-01"}' http
 
 ```bash
 # upload zip to zipUrl by PUT request
-curl -T ./example/example.zip -X PUT https://zipurl
+curl -X PUT -H "Content-Type: application/zip" -T ./example/example.zip https://zipurl
 ```
 
 ### [Example script written in nodejs](./example/index.js)
