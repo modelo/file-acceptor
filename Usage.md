@@ -2,7 +2,7 @@
 
 Normally, Sixgill will send one zip to Modelo everyday though the API.
 
-The API also support resubmit if user meet error uploading zip file(user can upload zip to same date, the latest zip count)
+The API also support resubmit if Sixgill meet error uploading zip file(by uploading zip to same date, the latest zip counts)
 
 ## API
 
